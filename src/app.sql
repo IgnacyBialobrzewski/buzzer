@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS rooms (
+    id INT PRIMARY KEY AUTOINCREMENT,
+    size SMALLINT,
+    name TEXT
+);
